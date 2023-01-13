@@ -20,12 +20,15 @@ html {
 #nameDisplay {
     display: initial;
     position: fixed;
-    top: 10%;
-    left: 30%;
+    left: 27.6%;
 }
 
 #banner {
     font-size: 800%;
+}
+
+a:link, a:visited {
+    color: black;
 }
 
 /* Clean BG image for smaller screen text formatting */
