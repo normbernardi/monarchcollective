@@ -1,0 +1,252 @@
+:root {
+    --primary-color: rgba(109, 208, 194, 1);
+    --secondary-color: rgba(229, 160, 207, 1);
+    --tertiary-color: rgba(232, 215, 105, 1);
+    --default-color: rgba(150, 150, 150, 0.25);
+    --transparent: rgba(0, 0, 0, 0.7);
+    --pagebg: rgb(19, 19, 19);
+}
+
+/* header related styling */
+
+header {
+    position: fixed;
+    top: 0px;
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: var(--default-color);
+}
+
+header span {
+    text-align: start;
+    color: var(--tertiary-color);
+    margin: 0px 15px 0px 15px;
+    font-family: "Aboreto", cursive;
+    font-size: 16px;
+}
+
+header nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    margin-left: 75vw;
+}
+
+ul li {
+    display: inline-block;
+    margin-right: 15px;
+    justify-content: left;
+    font-family: "Aboreto", cursive;
+    font-size: 14px;
+}
+
+/*Links lookin' sharp*/
+
+a:link {
+    color: var(--tertiary-color);
+    text-decoration: none;
+    position: relative;
+}
+
+a:visited {
+    color: var(--tertiary-color);
+}
+
+a:hover,
+a:focus {
+    text-decoration: underline;
+    color: white;
+}
+
+/* Button Styling */
+
+button {
+    background-color: rgba(0, 0, 0, 0.0);
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: "Amatic SC", cursive;
+}
+
+button a, button a:visited {
+    color: black;
+}
+
+button {
+    height: 200px;
+    width: 400px;
+    font-size: 60px;
+}
+
+
+/* context buttons in textbox */
+
+.contextButton {
+    height: 120px;
+    width: 320px;
+    color: black;
+    position: relative;
+    left: 5%;
+}
+
+.contextButton a {
+    color: black;
+}
+
+
+/* General Page Styling */
+
+.mobileImg {
+    display: none;
+}
+
+body {
+    background-color: var(--pagebg);
+}
+
+/* For the big 3-card info display, this is whole container */
+
+.infocards {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 35vh;
+    justify-content: center;
+}
+
+/* For the big 3-card info display, this is the three cards */
+
+.textbox {
+    display: flex;
+    flex-direction: column;
+    inline-size: 350px;
+    margin: 15px 15px 15px 15px;
+    text-align: center;
+    
+}
+
+.textbox h2 {
+    padding-bottom: 10px;
+}
+
+.textbox p {
+    font-size: x-large;
+}
+
+/* Big heading on home pages */
+
+.title {
+    position: relative;
+    top: 10vh;
+    text-align: center;
+    color: var(--tertiary-color);
+}
+
+hr.rounded {
+    border-width: 4px;
+    border-style: solid;
+    border-radius: 2px;
+    width: 75%;
+    margin-top: 10px;
+    margin-bottom: 6px;
+    color: inherit;
+}
+
+.title hr.rounded {
+    width: 15%;
+}
+
+h1 {
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    font-size: xxx-large;
+}
+
+h2 {
+    font-family: "Oswald", sans-serif;
+    font-weight: 300;
+    font-size: 300%;
+}
+
+#banner {
+    font-family: "Amatic SC", cursive;
+}
+
+p {
+    font-family: "Oswald", sans-serif;
+    font-weight: 330;
+    font-kerning: 2;
+    font-size: large;
+    color: grey;
+}
+
+/* laptop screen */
+@media (min-width: 769px) and (max-width: 1280px) {
+
+    header nav {
+        margin-left: 60vw;
+    }
+
+    button {
+        height: 150px;
+        width: 380px;
+        font-size: 52px;
+    }
+
+    .contextButton {
+        left: 15px;
+    }
+
+    .textbox p {
+        font-size: inherit
+    }
+}
+
+ /* mobile screens */
+@media (max-width: 950px) {
+    .title {
+        top: 0px;
+        left: 16.5vw;
+    }
+
+    .mobileImg {
+        display: initial;
+        margin-left: 5px;
+    }
+
+    h1 {
+        font-size: xx-large;
+    }
+
+    header {
+        display: none;
+    }
+
+    button {
+        height: 85px;
+        width: 150px;
+        font-size: 28px;
+        padding-top: 5px;
+    }
+
+    .infocards {
+        flex-direction: column;
+        margin-left: 17px;
+    }
+
+    .contextButton {
+        left: 15px;
+    }
+
+    .textbox p {
+        font-size: 110%;
+    }
+}
