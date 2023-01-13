@@ -3,22 +3,35 @@ header {
 }
 
 html {
-    background: url("asset/monarch-splash.png") no-repeat center center fixed;
+    background: url("asset/monarch-splash-fixed.png") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
 
-#nameDisplay {
-    display: none;
+.splashImg {
+    display: initial;
+    width: 50%;
+    height: auto;
+    margin-left: 6.25vw;
 }
 
+#nameDisplay {
+    display: initial;
+    position: fixed;
+    top: 10%;
+    left: 35%;
+}
+
+#banner {
+    font-size: 800%;
+}
 
 /* Clean BG image for smaller screen text formatting */
 @media (max-width: 1280px) {
     html {
-        background: url("asset/monarch-splash-mobile.png") no-repeat center center fixed;
+        background: url("asset/monarch-splash-fixed.png") no-repeat center center fixed;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -28,7 +41,7 @@ html {
     #nameDisplay {
         display: initial;
         position: fixed;
-        top: 40%;
+        top: 25%;
         left: 35%;
     }
 }
@@ -61,6 +74,21 @@ html {
         top: 70%;
         left: 55%;
     }
+
+    #nameDisplay {
+        top: 10%;
+        left: 31.25%;
+    }
+
+    #banner {
+        font-size: 5vw;
+    }
+
+    .splashImg {
+        width: 25%;
+        height: auto;
+        margin-left: 10vw;
+    } 
 }
 
 /* smaller screens than previous */
@@ -84,5 +112,9 @@ html {
     #banner {
         font-size: 10vw;
     }
+
+    .splashImg {
+        margin-left: 19.5%;
+    } 
 
 }
