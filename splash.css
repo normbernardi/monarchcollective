@@ -14,14 +14,14 @@ html {
     display: initial;
     width: 50%;
     height: auto;
-    margin-left: 6.25vw;
+    margin-left: 8.35vw;
 }
 
 #nameDisplay {
     display: initial;
     position: fixed;
     top: 10%;
-    left: 35%;
+    left: 30%;
 }
 
 #banner {
