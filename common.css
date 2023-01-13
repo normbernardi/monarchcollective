@@ -76,10 +76,6 @@ button {
     font-family: "Amatic SC", cursive;
 }
 
-button a, button a:visited {
-    color: black;
-}
-
 button {
     height: 200px;
     width: 400px;

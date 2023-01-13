@@ -27,7 +27,7 @@ html {
     font-size: 800%;
 }
 
-a:link, a:visited {
+button a:link, button a:visited {
     color: black;
 }
 
