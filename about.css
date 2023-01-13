@@ -48,6 +48,10 @@
     inline-size: 120vh;
 }
 
+p#hardfix {
+    inline-size: 50vw;
+}
+
 .bioItem button {
     width: 50%;
     margin-top: 5%;
@@ -109,5 +113,9 @@
         inline-size: 80vw;
         font-size: 115%;
         line-height: 100%;
+    }
+
+    p#hardfix {
+        inline-size: 70vw;
     }
 }
