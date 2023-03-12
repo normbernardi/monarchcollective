@@ -2,6 +2,10 @@
     font-size: 5vw;
     margin-left: -9%;
 }
+.title h1#T {
+    margin-left: initial;
+}
+
 
 .title {
     margin-left: 3%;
@@ -10,6 +14,10 @@
 .title hr.rounded {
     width: 20%;
     margin-left: 32%;
+}
+
+.title hr.rounded#T {
+    margin-left: 40%;
 }
 
 .title hr.rounded#mainLine {
@@ -121,12 +129,16 @@ ul#faq .cryoBook {
         margin-left: -37vw;
     }
 
+    .title h1 {
+        margin-left: 5%;
+    }
+
     .title#BLogo {
         margin-left: 3%;
     }
 
-    .mobileImg {
-        margin-left: -10%;
+    hr.rounded {
+        display: none;
     }
 
     h2#alert {
@@ -178,9 +190,5 @@ ul#faq .cryoBook {
         position: relative;
         background-color: var(--secondary-color);
         border-color: var(--secondary-color);
-    }
-
-    li h2 {
-        margin-top: px;
     }
 }
