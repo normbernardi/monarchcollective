@@ -1,0 +1,134 @@
+#subtitle {
+    font-size: 220%;
+    inline-size: 100vw;
+    text-decoration-line: underline;
+    margin-bottom: 10vh;
+}
+
+#coverImg {
+    margin-top: 10px;
+}
+
+#mission {
+    text-align: center;
+    inline-size: 80vw;
+    margin-top: 2vh;
+    font-size: 170%;
+}
+
+#stylistName {
+    line-height: 120%;
+    font-size: 400%;
+    inline-size: 100vw;
+    text-align: center;
+    font-family: "Amatic SC", cursive;
+    margin-bottom: 7vh;
+}
+
+.bioCard {
+    margin-top: 5vh;
+}
+
+.bioContent {
+    text-align: center;
+    margin: 5vh 0vw -3vh 0vw;
+    padding: 5vh 0vw -2vh 0vw;
+    top: 20vh;
+}
+
+.bioItem {
+    margin-bottom: 5vh;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.bioItem p {
+    margin-top: 2vh;
+    font-size: 2rem;
+    line-height: 150%;
+    inline-size: 120vh;
+}
+
+p#hardfix {
+    inline-size: 50vw;
+}
+
+.bioItem button {
+    width: 50%;
+    margin-top: 5%;
+    height: auto;
+    border-radius: 5px;
+    border-color: var(--tertiary-color);
+} 
+
+.title {
+    left: 1.5vw;
+    margin-top: 2vh;
+    text-align: center;
+}
+
+.title hr.rounded#top {
+    width: 25%;
+}
+
+@media (max-width: 950px) {
+    .title {
+        left: 1.5vw;
+        margin-top: 15px;
+        text-align: center;
+    }
+    
+    .title h1{
+        font-size: 150%;
+    }
+
+    .title hr.rounded {
+        width: 30%;
+    }
+
+    .title hr.rounded#top {
+        width: 40%;
+    }
+
+    .bioContent {
+        margin-top: 0.5vh;
+    }
+
+    .bioItem p{
+        font-size: 1rem;
+        inline-size: 400px;
+    }
+
+    #subtitle {
+        line-height: 120%;
+        font-size: 120%;
+        inline-size: 410px;
+        text-align: center;
+    }
+
+    #stylistName {
+        line-height: 120%;
+        font-size: 250%;
+        inline-size: 410px;
+        text-align: center;
+        font-family: "Amatic SC", cursive;
+        margin-bottom: 0vh;
+    }
+
+    #mission {
+        text-align: center;
+        inline-size: 80vw;
+        font-size: 115%;
+        line-height: 100%;
+    }
+
+    p#hardfix {
+        inline-size: 70vw;
+    }
+}
+
+@media (min-width: 951px) {
+    p#scooch {
+        padding-left: 7vw;
+    }
+}

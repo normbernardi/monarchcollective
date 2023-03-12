@@ -1,0 +1,186 @@
+.title h1 {
+    font-size: 5vw;
+    margin-left: -9%;
+}
+
+.title {
+    margin-left: 3%;
+}
+
+.title hr.rounded {
+    width: 20%;
+    margin-left: 32%;
+}
+
+.title hr.rounded#mainLine {
+    width: 50%;
+    margin-left: 23%;
+}
+
+ul#faq {
+    justify-items: center;
+}
+
+ul#faq li {
+    display: block;
+    list-style: none;
+    position: relative;
+    margin-left: -15%;
+}
+
+ul#faq h2 {
+    margin-left: -9%;
+}
+
+ul#faq p {
+    margin-left: 2%;
+}
+
+li h2 {
+    margin-top: 20px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 200%;
+}
+
+h2#alert {
+    position: absolute;
+    left: 37%;
+    top: 40%;
+    font-size: 150%;
+}
+
+
+
+/* Styles for Tattoo */
+
+header#tattoo {
+    background-color: rgba(109, 208, 194, 0.45);
+}
+
+body#tattoo {
+    color: var(--primary-color);
+}
+
+button.contextButton#T {
+    background-color: var(--primary-color);
+}
+
+.title#T {
+    color: var(--primary-color);
+    top: 15vh;
+}
+
+
+/*Styles for Beauty */
+
+header#beauty {
+    background-color: rgba(229, 160, 207, 0.45);
+}
+
+body#beauty {
+    color: var(--secondary-color);
+}
+
+button.contextButton#B {
+    background-color: var(--secondary-color);
+}
+
+.title#B {
+    color: var(--secondary-color);
+    top: 15vh;
+}
+
+.title#BLogo {
+    color: var(--secondary-color);
+}
+
+#label{
+    text-align: center;
+    margin-left: -17%;
+}
+
+ul#faq .cryoBook {
+    position: relative;
+    width: 25%;
+    background-color: var(--secondary-color);
+    border-color: var(--secondary-color);
+    margin-left: -28%;
+}
+
+.cryoBook a {
+    color: black;
+    text-align: center;
+}
+
+
+@media (max-width: 950px) {
+    .title {
+        margin-left: -37vw;
+    }
+
+    .title#BLogo {
+        margin-left: 3%;
+    }
+
+    .mobileImg {
+        margin-left: -10%;
+    }
+
+    h2#alert {
+        left: 25%;
+        top: 50%;
+        font-size: 115%;
+        inline-size: 55%;
+        margin-top: 4vh;
+    }
+
+    .infocards {
+        margin-left: 4vw;
+    }
+
+    .title hr.rounded {
+        margin-left: 45%;
+        
+    }
+
+    ul#faq {
+        margin-left: 2%;
+    }
+
+    .title hr.rounded#mainLine {
+        width: 50%;
+        margin-left: 20%;
+    }
+
+    ul#faq h2 {
+        margin-left: 16%;
+        font-size: 150%;
+        inline-size: 100%;
+    }
+
+    ul#faq p {
+        inline-size: 60%;
+        margin-left: 36%;
+    }
+
+    .title h2, h2#label {
+        margin-left: 18%;
+        font-size: 220%;
+    }
+
+    ul#faq .cryoBook {
+        height: 20%;
+        width: 40%;
+        margin-left:15%;
+        position: relative;
+        background-color: var(--secondary-color);
+        border-color: var(--secondary-color);
+    }
+
+    li h2 {
+        margin-top: px;
+    }
+}

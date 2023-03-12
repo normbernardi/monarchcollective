@@ -1,0 +1,15 @@
+header {
+    background-color: rgba(109, 208, 194, 0.45);
+}
+
+body {
+    color: var(--primary-color);
+}
+
+hr.rounded {
+    border-color: var(--primary-color);
+}
+
+.learnMore {
+    background-color: var(--primary-color);
+}

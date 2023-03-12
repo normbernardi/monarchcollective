@@ -1,0 +1,36 @@
+#BLogo h1, #BLogo hr.rounded {
+    color: var(--primary-color);
+}
+
+
+#label {
+    margin-left: -16%;
+}
+
+hr.rounded { 
+    margin-left: 10%;
+}
+
+@media (max-width: 950px) {
+    
+    .title {
+        margin-left: 10%;
+    }
+
+    .mobileImg {
+        margin-left: -7%;
+    }
+
+    .title hr.rounded {
+        width: 50%;
+        margin-left: 14%;
+    }
+
+    ul#faq li {
+        margin-left: -80%;
+    }
+
+    .title #label {
+        margin-left: -20%;
+    }
+}
